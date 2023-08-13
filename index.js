@@ -1,13 +1,14 @@
-{
+module.exports = {
     "extends": [
-        "eslint:recommended"
+        "eslint:recommended",
     ],
     "ignorePatterns": [
-        "node_modules/**/*"
+        "node_modules/**/*",
+        "dist/**/*",
     ],
     "parser": "@typescript-eslint/parser",
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
     ],
     "noInlineConfig": true,
     "reportUnusedDisableDirectives": true,
@@ -38,8 +39,8 @@
         "object-shorthand": "error",
         "no-var": "error",
         "no-useless-return": "error",
-        "no_underscore_dangle": "error",
-        "no_shadow": "error",
+        "no-underscore-dangle": "error",
+        "no-shadow": "error",
         "no-param-reassign": "error",
         "array-bracket-newline": ["error", "consistent"],
         "array-element-newline": ["error", "consistent"],
@@ -47,7 +48,7 @@
         "arrow-parens": "error",
         "block-spacing": ["error", "never"],
         "brace-style": ["error", "1tbs"],
-        "comma-dangle": ["error", "always"],
+        "comma-dangle": ["error", "always-multiline"],
         "comma-spacing": "error",
         "comma-style": ["error", "last"],
         "computed-property-spacing": ["error", "never"],
@@ -60,9 +61,8 @@
         "jsx-quotes": ["error", "prefer-double"],
         "key-spacing": ["error", {"beforeColon": false, "afterColon": true, "mode": "strict"}],
         "keyword-spacing": "error",
-        "linebreak-style": ["error", "unix"],
-        "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
-        "max-statements-per-line": ["error", { "max": 1 }],
+        "lines-between-class-members": ["error", "always", {"exceptAfterSingleLine": true}],
+        "max-statements-per-line": ["error", {"max": 1}],
         "new-parens": "error",
         "newline-per-chained-call": "error",
         "no-extra-parens": "error",
@@ -72,9 +72,9 @@
         "no-tabs": "error",
         "no-trailing-spaces": "error",
         "no-whitespace-before-property": "error",
-        "object-curly-newline": ["error", { "consistent": true }],
+        "object-curly-newline": ["error", {"consistent": true}],
         "object-curly-spacing": "error",
-        "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true}],
+        "object-property-newline": ["error", {"allowAllPropertiesOnSameLine": true}],
         "padded-blocks": ["error", "never"],
         "quotes": ["error", "double"],
         "rest-spread-spacing": ["error", "never"],
@@ -89,10 +89,10 @@
         "template-curly-spacing": "error",
         "@typescript-eslint/adjacent-overload-signatures": "error",
         "@typescript-eslint/array-type": "error",
-        "@typescript-eslint/await-thenable": "error",
+        // "@typescript-eslint/await-thenable": "error",
         "@typescript-eslint/consistent-indexed-object-style": "error",
         "@typescript-eslint/consistent-type-definitions": ["error", "type"],
-        "@typescript-eslint/consistent-type-exports": "error",
+        // "@typescript-eslint/consistent-type-exports": "error",
         "@typescript-eslint/consistent-type-imports": "error",
         "@typescript-eslint/explicit-function-return-type": "error",
         "@typescript-eslint/member-delimiter-style": "error",
@@ -129,6 +129,6 @@
         "@typescript-eslint/restrict-template-expressions": "error",
         "@typescript-eslint/switch-exhaustiveness-check": "error",
         "@typescript-eslint/type-annotation-spacing": "error",
-        "@typescript-eslint/unbound-method": "error"
-    }
-}
+        "@typescript-eslint/unbound-method": "error",
+    },
+};

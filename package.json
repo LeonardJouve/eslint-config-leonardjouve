@@ -1,9 +1,39 @@
 {
-  "name": "eslint",
+  "name": "eslint-config-leonardjouve",
+  "description": "Personal generic eslint config",
+  "author": {
+    "name": "Leonard Jouve",
+    "email": "leonard.jouve@gmail.com",
+    "url": "https://github.com/LeonardJouve"
+  },
   "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeonardJouve/eslint"
+  },
+  "bugs": {
+    "url": "https://github.com/LeonardJouve/eslint/issues"
+  },
+  "homepage": "https://github.com/LeonardJouve/eslint",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "styleguide",
+    "javascript",
+    "typescript"
+  ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.3.0",
     "@typescript-eslint/parser": "^6.3.0",
-    "eslint": "^8.47.0"
+    "eslint": "^8.47.0",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.47.0",
+    "typescript": "^5.1.6"
   }
 }
