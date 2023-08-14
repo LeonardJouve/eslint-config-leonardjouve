@@ -87,6 +87,8 @@ module.exports = {
         "space-unary-ops": ["error", {"words": true, "nonwords": false}],
         "switch-colon-spacing": "error",
         "template-curly-spacing": "error",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/adjacent-overload-signatures": "error",
         "@typescript-eslint/array-type": "error",
         "@typescript-eslint/await-thenable": "error",
