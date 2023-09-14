@@ -1,6 +1,6 @@
 Personal generic eslint config
 
-`npm ini @eslint/config`
+`npm init @eslint/config`
 
 `npm i --save-dev eslint-config-leonardjouve`
 
