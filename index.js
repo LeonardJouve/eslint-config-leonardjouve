@@ -10,7 +10,6 @@ module.exports = {
     "plugins": [
         "@typescript-eslint",
     ],
-    "noInlineConfig": true,
     "reportUnusedDisableDirectives": true,
     "rules": {
         "arrow-body-style": ["error", "as-needed"],
