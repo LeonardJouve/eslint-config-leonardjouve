@@ -94,7 +94,6 @@ module.exports = {
         "@typescript-eslint/array-type": "error",
         "@typescript-eslint/await-thenable": "error",
         "@typescript-eslint/consistent-indexed-object-style": "error",
-        "@typescript-eslint/consistent-type-definitions": ["error", "type"],
         "@typescript-eslint/consistent-type-exports": "error",
         "@typescript-eslint/consistent-type-imports": "error",
         "@typescript-eslint/explicit-function-return-type": "error",
