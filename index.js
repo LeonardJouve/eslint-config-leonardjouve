@@ -132,6 +132,5 @@ module.exports = {
         "@typescript-eslint/restrict-template-expressions": "error",
         "@typescript-eslint/switch-exhaustiveness-check": "error",
         "@typescript-eslint/type-annotation-spacing": "error",
-        "@typescript-eslint/unbound-method": "error",
     },
 };
