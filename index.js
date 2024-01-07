@@ -89,7 +89,7 @@ module.exports = {
         "dot-notation": "off",
         "@typescript-eslint/dot-notation": "error",
         "@typescript-eslint/space-before-function-paren": ["error", {"anonymous": "never", "named": "never", "asyncArrow": "always"}],
-        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/no-unused-vars": ["error", {"varsIgnorePattern": "_"}],
         "@typescript-eslint/no-shadow": "error",
         "@typescript-eslint/adjacent-overload-signatures": "error",
         "@typescript-eslint/array-type": "error",
