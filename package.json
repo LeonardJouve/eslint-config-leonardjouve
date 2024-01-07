@@ -10,7 +10,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LeonardJouve/eslint"
+    "url": "git+https://github.com/LeonardJouve/eslint.git"
   },
   "bugs": {
     "url": "https://github.com/LeonardJouve/eslint/issues"
