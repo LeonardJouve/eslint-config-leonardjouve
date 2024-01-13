@@ -62,7 +62,7 @@ module.exports = {
         "max-statements-per-line": ["error", {"max": 1}],
         "new-parens": "error",
         "newline-per-chained-call": "error",
-        "no-extra-parens": ["error", "all", {"ignoreJSX": "all"}],
+        "no-extra-parens": ["error", "all", {"ignoreJSX": "all", "conditionalAssign": false}],
         "no-mixed-spaces-and-tabs": "error",
         "no-multi-spaces": "error",
         "no-multiple-empty-lines": "error",
