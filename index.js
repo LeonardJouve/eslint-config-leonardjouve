@@ -9,6 +9,7 @@ module.exports = {
     "parser": "@typescript-eslint/parser",
     "plugins": [
         "@typescript-eslint",
+        "tailwindcss",
     ],
     "reportUnusedDisableDirectives": true,
     "rules": {
@@ -131,7 +132,6 @@ module.exports = {
         "@typescript-eslint/require-array-sort-compare": "error",
         "@typescript-eslint/restrict-template-expressions": "error",
         "@typescript-eslint/type-annotation-spacing": "error",
-        "tailwindcss/classnames-order": "error",
         "tailwindcss/enforces-negative-arbitrary-values": "error",
         "tailwindcss/enforces-shorthand": "error",
         "tailwindcss/no-contradicting-classname": "error",
