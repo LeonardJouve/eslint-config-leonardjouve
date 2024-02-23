@@ -6,7 +6,7 @@
     "email": "leonard.jouve@gmail.com",
     "url": "https://github.com/LeonardJouve"
   },
-  "version": "1.0.20",
+  "version": "1.0.21",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
     "eslint": "*",
-    "typescript": "*"
+    "typescript": "*",
+    "eslint-plugin-tailwindcss": "*"
   }
 }
