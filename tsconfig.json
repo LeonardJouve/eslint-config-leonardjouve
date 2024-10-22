@@ -1,0 +1,12 @@
+{
+    "noEmit": true,
+    "compilerOptions": {
+        "types": ["node"],
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "rootDir": "src",
+        "outDir": "dist",
+        "baseUrl": "src",
+        "strictNullChecks": true,
+    },
+}

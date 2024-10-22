@@ -6,16 +6,17 @@
     "email": "leonard.jouve@gmail.com",
     "url": "https://github.com/LeonardJouve"
   },
-  "version": "1.0.22",
-  "main": "index.js",
+  "type": "module",
+  "version": "2.0.1",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeonardJouve/eslint.git"
+    "url": "git+https://github.com/LeonardJouve/eslint-config-leonardjouve.git"
   },
   "bugs": {
-    "url": "https://github.com/LeonardJouve/eslint/issues"
+    "url": "https://github.com/LeonardJouve/eslint-config-leonardjouve/issues"
   },
-  "homepage": "https://github.com/LeonardJouve/eslint",
+  "homepage": "https://github.com/LeonardJouve/eslint-config-leonardjouve",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -24,18 +25,25 @@
     "javascript",
     "typescript"
   ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint ."
+  },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.3.0",
-    "@typescript-eslint/parser": "^6.3.0",
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/eslint-plugin-tailwindcss": "^3.17.0",
+    "@types/node": "^22.7.8",
     "eslint": "^8.47.0",
     "eslint-plugin-tailwindcss": "^3.14.3",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "typescript-eslint": "^8.11.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "*",
-    "@typescript-eslint/parser": "*",
+    "@stylistic/eslint-plugin": "*",
     "eslint": "*",
+    "eslint-plugin-tailwindcss": "*",
     "typescript": "*",
-    "eslint-plugin-tailwindcss": "*"
+    "typescript-eslint": "*"
   }
 }
