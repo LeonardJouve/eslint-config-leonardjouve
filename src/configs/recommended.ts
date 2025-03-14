@@ -108,7 +108,7 @@ export default [
             "@stylistic/space-before-function-paren": ["error", {"anonymous": "never", "named": "never", "asyncArrow": "always"}],
             "@stylistic/member-delimiter-style": "error",
             "@typescript-eslint/dot-notation": "error",
-            "@typescript-eslint/no-unused-vars": ["error", {"varsIgnorePattern": "_"}],
+            "@typescript-eslint/no-unused-vars": ["error", {"varsIgnorePattern": "^_", "argsIgnorePattern": "^_"}],
             "@typescript-eslint/no-shadow": ["error", {"ignoreOnInitialization": true}],
             "@typescript-eslint/adjacent-overload-signatures": "error",
             "@typescript-eslint/array-type": "error",
