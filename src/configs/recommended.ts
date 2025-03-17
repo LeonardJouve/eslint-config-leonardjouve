@@ -34,7 +34,6 @@ export default [
             "block-scoped-var": "error",
             "camelcase": ["error", {"properties": "never"}],
             "class-methods-use-this": "error",
-            "consistent-return": "error",
             "curly": "error",
             "default-case-last": "error",
             "default-param-last": "error",
