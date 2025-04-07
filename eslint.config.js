@@ -1,3 +1,9 @@
-import rules from "./dist/index.js";
+import tseslint from 'typescript-eslint';
+import plugin from "./dist/index.js";
 
-export default rules.configs.recommended;
+export default tseslint.config(plugin.configs.recommended, {
+    ignores: [
+        "dist/**",
+        "eslint.config.js",
+    ],
+});
